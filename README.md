@@ -11,14 +11,9 @@ Pagina web desarrollada utilizando angular y primeNg por <em>Fernando Iván Sevi
 
 # Índice
 1. [Logo y video explicativo](#logo-y-video-explicativo)
-2. [Creacion de usuario](#creación-de-usuario)
-3. [Primer contacto con la app](#primer-contacto-con-la-app)
-4. [Creacion de una Lobby y visualización de la misma](#creacion-de-una-lobby-y-visualización-de-la-misma)
-5. [Acceso de los usuarios a la lobby](#acceso-de-los-usuarios-a-la-lobby)
-6. [Añadiendo items a nuestra lista de deseos](#añadiendo-items-a-nuestra-lista-de-deseos)
-7. [Cambiando la imagen de perfil del usuario](#cambiando-la-imagen-de-perfil-del-usuario)
-8. [Visualización de la lista de deseos de cada participante de la lobby](#visualización-de-la-lista-de-deseos-de-cada-participante-de-la-lobby)
-
+2. [Champions](#champions)
+3. [Champion Detail](#champion-detail)
+4. [My favourite champions](#my-favourite-champions)
 
 
 
@@ -49,6 +44,17 @@ Pagina web desarrollada utilizando angular y primeNg por <em>Fernando Iván Sevi
 ---------------------------------------  
 
 
+## Champion detail
+#### Se muestra información mas detallada del campeón así como su Splash Art.
+![Champion detail](img_ionic/3.png)
+> /champion-detail
+
+* **Visualización de contenido recogido por las APIS oficiales de League of Legends.
+ 
+
+---------------------------------------  
+
+
 ## My favourite champions
 #### Lista de campeones los cuales el usuario considera importante guardar en una lista.
 ![Favourite champions](img_ionic/2.png)
@@ -62,15 +68,6 @@ Pagina web desarrollada utilizando angular y primeNg por <em>Fernando Iván Sevi
 ---------------------------------------  
 
 
-## Champion detail
-#### Se muestra información mas detallada del campeón así como su Splash Art.
-![Champion detail](img_ionic/3.png)
-> /champion-detail
-
-* **Visualización de contenido recogido por las APIS oficiales de League of Legends.
- 
-
----------------------------------------  
 
 
 
