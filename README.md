@@ -12,8 +12,9 @@ Pagina web desarrollada utilizando angular y primeNg por <em>Fernando Iván Sevi
 # Índice
 1. [Logo y video explicativo](#logo-y-video-explicativo)
 2. [Champions](#champions)
-3. [Champion Detail](#champion-detail)
-4. [My favourite champions](#my-favourite-champions)
+3. [Búsqueda](#búsqueda)
+4. [Champion Detail](#champion-detail)
+5. [My favourite champions](#my-favourite-champions)
 
 
 
@@ -38,7 +39,11 @@ Pagina web desarrollada utilizando angular y primeNg por <em>Fernando Iván Sevi
 ![Home](gifs/1z.gif)
 > /home
 
-* **Filtro de datos y navegacion entre campeones**
+
+---------------------------------------
+
+
+## Búsqueda
 
 ![Filtro](gifs/2z.gif)
 
