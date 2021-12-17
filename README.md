@@ -35,10 +35,12 @@ Pagina web desarrollada utilizando angular y primeNg por <em>Fernando Iván Sevi
 ## Champions
 #### Listado de todos los personajes del lol recogidos desde la API oficial
 
-![Home](gifs/1.gif)
+![Home](gifs/1z.gif)
 > /home
 
 * **Filtro de datos y navegacion entre campeones**
+
+![Filtro](gifs/2z.gif)
 
 
 ---------------------------------------  
@@ -46,7 +48,7 @@ Pagina web desarrollada utilizando angular y primeNg por <em>Fernando Iván Sevi
 
 ## Champion detail
 #### Se muestra información mas detallada del campeón así como su Splash Art.
-![Champion detail](img_ionic/3.png)
+![Champion detail](gifs/3z.gif)
 > /champion-detail
 
 * **Visualización de contenido recogido por las APIS oficiales de League of Legends.
