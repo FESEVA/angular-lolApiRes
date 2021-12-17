@@ -26,11 +26,11 @@ Pagina web desarrollada utilizando angular y primeNg por <em>Fernando Iván Sevi
 ## Logo y Video explicativo
 
 <p align="center">
- <img src="src/assets/img/logo.png" alt="drawing" width="200"/>
+ <img src="https://www.logolynx.com/images/logolynx/6b/6bb837960806745a1543e6b43fca2297.png" alt="drawing" width="200"/>
  <br>
  <em>Logo creado por Sara Sevilla Valderrama</em>
  <br>
-  <a align="center" href="https://www.youtube.com/watch?v=KKGRLekEnP4">Video explicativo</a>
+  <a align="center" href="https://www.youtube.com/watch?v=NF1Dqf8jbcI">Video explicativo</a>
 </p>
   
 
