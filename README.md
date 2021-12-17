@@ -1,27 +1,74 @@
-# LolApiRes
+# League Of Legends Api Rescue Web Page
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.0.0.
+Pagina web desarrollada utilizando angular y primeNg por <em>Fernando Iván Sevilla Valderrama</em>
 
-## Development server
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
-## Code scaffolding
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+--------------------------------------- 
 
-## Build
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
 
-## Running unit tests
+# Índice
+1. [Logo y video explicativo](#logo-y-video-explicativo)
+2. [Champions](#champions)
+3. [Champion Detail](#champion-detail)
+4. [My favourite champions](#my-favourite-champions)
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
 
-## Running end-to-end tests
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice.
+--------------------------------------- 
+## Logo y Video explicativo
 
-## Further help
+<p align="center">
+ <img src="https://www.logolynx.com/images/logolynx/6b/6bb837960806745a1543e6b43fca2297.png" alt="drawing" width="200"/>
+ <br>
+ <em><a align="center" href="https://www.logolynx.com/topic/riot+games">Logo cogido de logolynx</a></em>
+ <br>
+  <a align="center" href="https://www.youtube.com/watch?v=NF1Dqf8jbcI">Video explicativo</a>
+</p>
+  
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+---------------------------------------  
+
+
+## Champions
+#### Listado de todos los personajes del lol recogidos desde la API oficial
+
+![Home](img_ionic/1.2.png)
+> /home
+
+* **Filtro de datos y navegacion entre campeones**
+
+
+---------------------------------------  
+
+
+## Champion detail
+#### Se muestra información mas detallada del campeón así como su Splash Art.
+![Champion detail](img_ionic/3.png)
+> /champion-detail
+
+* **Visualización de contenido recogido por las APIS oficiales de League of Legends.
+ 
+
+---------------------------------------  
+
+
+## My favourite champions
+#### Lista de campeones los cuales el usuario considera importante guardar en una lista.
+![Favourite champions](img_ionic/2.png)
+> /favourite
+
+* **Filtro de datos y navegacion entre campeones**
+
+* **Posibilidad de añadir y eliminar campeones a tu lista**
+ 
+ 
+---------------------------------------  
+
+
+
+
+
+## Si te ha gustado deja tu estrellita 🤩
