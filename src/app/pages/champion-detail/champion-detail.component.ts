@@ -25,7 +25,7 @@ export class ChampionDetailComponent implements OnInit {
    }
 
   ngOnInit(): void {
-
+    this.championsService.path = "favourite"
     this.basicData = {
       labels: [''],
       datasets: [
