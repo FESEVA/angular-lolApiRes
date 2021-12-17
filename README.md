@@ -28,7 +28,7 @@ Pagina web desarrollada utilizando angular y primeNg por <em>Fernando Iván Sevi
 <p align="center">
  <img src="https://www.logolynx.com/images/logolynx/6b/6bb837960806745a1543e6b43fca2297.png" alt="drawing" width="200"/>
  <br>
- <em>Logo creado por Sara Sevilla Valderrama</em>
+ <em>Logo cogido de [logolynx](https://www.logolynx.com/topic/riot+games)</em>
  <br>
   <a align="center" href="https://www.youtube.com/watch?v=NF1Dqf8jbcI">Video explicativo</a>
 </p>
