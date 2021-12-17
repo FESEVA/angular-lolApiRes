@@ -1,1 +1,33 @@
 /* You can add global styles to this file, and also import other style files */
+
+.container{
+    background-color: hsl(228, 13%, 15%);
+    position: absolute;
+    width: 95%;
+    height: 90%;
+    margin-top: 2.5%;
+    margin-left: 2.5%;
+    border-radius: 20px;
+    overflow: auto;
+    padding: 50px 80px;
+
+}
+
+.container::-webkit-scrollbar {
+    display: none;
+  }
+
+  .container{
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+  }
+
+.viewport{
+    position: absolute;
+    width: 100%;
+    height: calc(100% - 64px);
+    margin: 0;
+}
+body{
+    margin: 0;
+}

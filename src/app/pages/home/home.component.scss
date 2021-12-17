@@ -1,0 +1,30 @@
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 50px
+}
+
+img{
+    height: 300px;
+    object-fit: cover;
+    object-position: 0px -35px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+p-card{
+cursor: pointer;
+transition: all 0.1s linear;
+box-shadow: 4px 4px 4px 4px 0.25;
+}
+
+p-card p{
+    height: 130px;
+}
+
+
+p-card:hover{
+
+    transform: scale(1.1);
+}

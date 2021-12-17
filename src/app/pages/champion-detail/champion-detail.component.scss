@@ -1,0 +1,58 @@
+
+@font-face {
+    font-family: 'lolFont';
+    src: url('../../../assets/fonts/Friz\ Quadrata\ Regular.ttf');
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    align-items: center;
+    font-family: 'lolFont';
+}
+
+img{
+    position: absolute;
+    border-radius: 20px;
+    width: 95%;
+    height: 90%;
+    object-fit: cover;
+    object-position: right;
+    z-index: 1;
+}
+
+#championDetails{
+position: absolute;
+top: 10%;
+left: 5%;
+width: 47.5%;
+height: 80%;
+background-color: rgba(255, 255, 255, 0.479);
+border-radius: 20px;
+z-index: 2;
+padding: 20px 40px;
+}
+
+#championDetails h1{
+font-weight: 800;
+}
+
+#championDetails h3{
+    font-weight: 500;
+    }
+
+    
+#primeNgGraphs{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 70%;
+
+}
+
+
+
+
+
+

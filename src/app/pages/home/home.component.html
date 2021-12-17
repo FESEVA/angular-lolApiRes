@@ -1,0 +1,8 @@
+<div class="container">
+    <p-card (click)="goChampion(champion.id)" *ngFor="let champion of championsService.championList" header="{{champion.name}}" subheader="{{champion.title}}" [style]="{width: '360px'}" styleClass="p-card-shadow">
+        <ng-template pTemplate="header">
+            <img alt="Card" src="http://ddragon.leagueoflegends.com/cdn/img/champion/loading/{{champion.id}}_0.jpg">
+        </ng-template>
+        <p>{{champion.blurb}}</p>
+    </p-card>
+</div>

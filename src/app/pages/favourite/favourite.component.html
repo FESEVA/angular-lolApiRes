@@ -1,0 +1,39 @@
+<p-toast></p-toast>
+<div class="container">
+
+    <p-confirmDialog header="Confirmation" icon="pi pi-exclamation-triangle"></p-confirmDialog>  
+    
+    
+    <div  class="card">
+        <p-table  [value]="myChampionList">
+            <ng-template pTemplate="header">
+                <tr>
+                    <th id="th1">Icon</th>
+                    <th id="th2" pSortableColumn="name">Name <p-sortIcon field="name"></p-sortIcon></th>
+                    <th id="th3" pSortableColumn="tags">Category <p-sortIcon field="tags"></p-sortIcon></th>
+                    <th id="searchTh">
+
+                        <p-dropdown [options]="championsService.champions" [(ngModel)]="championSelected" optionLabel="name" [filter]="true" filterBy="name" [showClear]="true" placeholder="Select a Champion">
+                            <ng-template let-champion pTemplate="item">
+                                <div class="country-item">
+                                    <div>{{champion.name}}</div>
+                                </div>
+                            </ng-template>
+                        </p-dropdown>
+                        <p-button label="Add to Favourites" icon="pi pi-check" styleClass="p-button" (click)="addChampion()" ></p-button>
+                    </th>
+                    
+                </tr>
+            </ng-template>
+            <ng-template pTemplate="body" let-champion >
+                <tr>
+                    <td (click)="goChampion(champion.id)"><img src="http://ddragon.leagueoflegends.com/cdn/11.24.1/img/champion/{{champion.id}}.png" alt="icon"></td>
+                    <td (click)="goChampion(champion.id)">{{champion.name}}</td>
+                    <td (click)="goChampion(champion.id)">{{champion.tags}}</td>
+                    <td id="deleteTr"><button style="width: 205px;" pButton pRipple type="button" label="Delete" class="p-button-rounded p-button-danger" (click)="confirm(champion)"></button></td>
+                </tr>
+            </ng-template>
+        </p-table>
+    </div>
+
+</div>

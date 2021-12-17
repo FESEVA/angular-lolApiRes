@@ -1,0 +1,20 @@
+<div class="container">
+
+    <img src="http://ddragon.leagueoflegends.com/cdn/img/champion/splash/{{champion.id}}_0.jpg" alt="">
+
+    <div id="championDetails">
+
+        <h1>{{champion.name}}</h1>
+        <h3>{{champion.title | titlecase}}</h3>
+        <p>{{champion.blurb}}</p>
+
+        <div id="primeNgGraphs">
+            <div  class="card">
+                <p-chart type="bar" [data]="basicData" [options]="horizontalOptions"></p-chart>
+            </div>
+            <p-chart type="doughnut" [data]="data" [style]="{'width': '30%'}"></p-chart>
+        </div>
+    </div>
+
+
+</div>

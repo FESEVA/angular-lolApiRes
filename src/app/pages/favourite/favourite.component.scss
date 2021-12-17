@@ -1,0 +1,31 @@
+img{
+    width: 60px;
+}
+
+tr{
+    cursor: pointer;
+}
+
+#th1{
+    border-top-left-radius: 20px;
+    background-color: #8993AB;
+}
+#th2, #th3{
+    background-color: #8993AB;
+}
+
+#deleteTr{
+    text-align: end;
+    cursor: default;
+}
+
+#searchTh{
+    border-top-right-radius: 20px;
+    background-color: #8993AB;
+    display: flex;
+    justify-content: end;
+    gap: 10px;
+    width: 100%;
+}
+
+
