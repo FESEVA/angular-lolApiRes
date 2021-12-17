@@ -1,27 +1,77 @@
-# LolApiRes
+# League Of Legends Api Rescue Web Page
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.0.0.
+Pagina web desarrollada utilizando angular y primeNg por <em>Fernando Iván Sevilla Valderrama</em>
 
-## Development server
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
-## Code scaffolding
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+--------------------------------------- 
 
-## Build
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
 
-## Running unit tests
+# Índice
+1. [Logo y video explicativo](#logo-y-video-explicativo)
+2. [Creacion de usuario](#creación-de-usuario)
+3. [Primer contacto con la app](#primer-contacto-con-la-app)
+4. [Creacion de una Lobby y visualización de la misma](#creacion-de-una-lobby-y-visualización-de-la-misma)
+5. [Acceso de los usuarios a la lobby](#acceso-de-los-usuarios-a-la-lobby)
+6. [Añadiendo items a nuestra lista de deseos](#añadiendo-items-a-nuestra-lista-de-deseos)
+7. [Cambiando la imagen de perfil del usuario](#cambiando-la-imagen-de-perfil-del-usuario)
+8. [Visualización de la lista de deseos de cada participante de la lobby](#visualización-de-la-lista-de-deseos-de-cada-participante-de-la-lobby)
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
 
-## Running end-to-end tests
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice.
 
-## Further help
+--------------------------------------- 
+## Logo y Video explicativo
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+<p align="center">
+ <img src="src/assets/img/logo.png" alt="drawing" width="200"/>
+ <br>
+ <em>Logo creado por Sara Sevilla Valderrama</em>
+ <br>
+  <a align="center" href="https://www.youtube.com/watch?v=KKGRLekEnP4">Video explicativo</a>
+</p>
+  
+
+---------------------------------------  
+
+
+## Champions
+#### Listado de todos los personajes del lol recogidos desde la API oficial
+
+![Home](img_ionic/1.2.png)
+> /home
+
+* **Filtro de datos y navegacion entre campeones**
+
+
+---------------------------------------  
+
+
+## My favourite champions
+#### Lista de campeones los cuales el usuario considera importante guardar en una lista.
+![Favourite champions](img_ionic/2.png)
+> /favourite
+
+* **Filtro de datos y navegacion entre campeones**
+
+* **Posibilidad de añadir y eliminar campeones a tu lista**
+ 
+ 
+---------------------------------------  
+
+
+## Champion detail
+#### Se muestra información mas detallada del campeón así como su Splash Art.
+![Champion detail](img_ionic/3.png)
+> /champion-detail
+
+* **Visualización de contenido recogido por las APIS oficiales de League of Legends.
+ 
+
+---------------------------------------  
+
+
+
+## Si te ha gustado deja tu estrellita 🤩
