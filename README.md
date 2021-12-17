@@ -64,7 +64,7 @@ Pagina web desarrollada utilizando angular y primeNg por <em>Fernando Iván Sevi
 
 ## My favourite champions
 #### Lista de campeones los cuales el usuario considera importante guardar en una lista.
-![Favourite champions](gifs/4z.png)
+![Favourite champions](gifs/4z.gif)
 > /favourite
 
 
@@ -73,13 +73,13 @@ Pagina web desarrollada utilizando angular y primeNg por <em>Fernando Iván Sevi
 
 ## CRUD de campeones
 #### Posibilidad de añadir y eliminar campeones a tu lista.
-![List](gifs/5z.png)
+![List](gifs/5z.gif)
  
 ---------------------------------------  
 
 ## Validación
 #### El CRUD comprueba si los datos que se meten en la lista son correctos y muestra mensajes al usuario.
-![List-check](gifs/6z.png)
+![List-check](gifs/6z.gif)
 
 
 ---------------------------------------  
