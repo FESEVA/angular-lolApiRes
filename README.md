@@ -35,7 +35,7 @@ Pagina web desarrollada utilizando angular y primeNg por <em>Fernando Iván Sevi
 ## Champions
 #### Listado de todos los personajes del lol recogidos desde la API oficial
 
-![Home](img_ionic/1.2.png)
+![Home](gifs/1.gif)
 > /home
 
 * **Filtro de datos y navegacion entre campeones**
