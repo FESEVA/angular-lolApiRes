@@ -1,4 +1,8 @@
-<p-menubar [model]="items">
-        <input *ngIf="this.championsService.path == 'home' " type="text" pinputtext="" [(ngModel)]="championsService.championName" (keyup)="championsService.setNewChampionListOnSearch()" placeholder="Search" class="p-inputtext p-component p-element ng-star-inserted">
+<p-menubar *ngIf="this.usersService.loggedUser!.username == undefined" [model]="items2!">
+      <input *ngIf="this.usersService.path == 'home'  " type="text" pinputtext="" [(ngModel)]="championsService.championName" (keyup)="championsService.setNewChampionListOnSearch()" placeholder="Search" class="p-inputtext p-component p-element ng-star-inserted">
 </p-menubar>
+
+<p-menubar *ngIf="this.usersService.loggedUser!.username != undefined" [model]="this.authService.items1!">
+        <input *ngIf="this.usersService.path == 'home'  " type="text" pinputtext="" [(ngModel)]="championsService.championName" (keyup)="championsService.setNewChampionListOnSearch()" placeholder="Search" class="p-inputtext p-component p-element ng-star-inserted">
+  </p-menubar>
 

@@ -1,3 +1,6 @@
+import { AuthService } from './../../services/auth.service';
+import { User } from './../../models/user';
+import { UsersService } from './../../services/users.service';
 import { ChampionsService } from './../../services/champions.service';
 import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
@@ -10,25 +13,34 @@ import { MenuItem } from 'primeng/api';
 })
 export class MenubarComponent implements OnInit {
 
-  items: MenuItem[];
-
+  items2: MenuItem[];
   championName: string = "";
 
-  constructor( private router: Router, public championsService: ChampionsService) {
 
-    this.items = [
-      {
-          label:'Champions',
-          icon:'pi pi-fw pi-github',
-          routerLink:'home'
-        },
+
+
+  constructor( public router: Router, public championsService: ChampionsService, public usersService: UsersService, public authService: AuthService) {
+  
+  
+    this.usersService.loggedUser = {} as User;
+      
+     
+      this.items2 = [
         {
-          label:'My favourite champions',
-          icon:'pi pi-fw pi-star',
-          routerLink:'favourite'
-        },
+            label:'Champions',
+            icon:'pi pi-fw pi-github',
+            command: () => this.goHome()
+          },
+          {
+            label:'Register / Login',
+            icon:'pi pi-fw pi-user',
+            command: () => this.goLogin()
+          },
+  
+        ]
+    
 
-      ]
+    
 
    }
 
@@ -36,6 +48,19 @@ export class MenubarComponent implements OnInit {
 
     
   }
+
+
+  goHome(){
+    this.router.navigateByUrl('/home');
+    this.usersService.path = 'home'
+  }
+
+  goLogin(){
+    this.router.navigateByUrl('/login');
+    this.usersService.path = 'login'
+  }
+
+  
 
 
 }

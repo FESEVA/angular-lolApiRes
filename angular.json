@@ -43,8 +43,8 @@
               "budgets": [
                 {
                   "type": "initial",
-                  "maximumWarning": "500kb",
-                  "maximumError": "1mb"
+                  "maximumWarning": "4mb",
+                  "maximumError": "5mb"
                 },
                 {
                   "type": "anyComponentStyle",
@@ -107,6 +107,16 @@
             "scripts": [
               "../node_modules/chart.js/dist/Chart.js"
             ]
+          }
+        },
+        "deploy": {
+          "builder": "@angular/fire:deploy",
+          "options": {
+            "prerender": false,
+            "ssr": false,
+            "browserTarget": "lolApiRes:build:production",
+            "firebaseProject": "lol-api-res",
+            "firebaseHostingSite": "lol-api-res"
           }
         }
       }

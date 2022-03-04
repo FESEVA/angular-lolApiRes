@@ -21,8 +21,7 @@ export class ChampionDetailComponent implements OnInit {
   constructor( private championsService: ChampionsService, private activatedRoute:ActivatedRoute) {
     const id = this.activatedRoute.snapshot.paramMap.get('id'); 
     this.champion = this.championsService.champions.filter(c => c.id == id)[0];
-    console.log(this.champion)
-   }
+}
 
   ngOnInit(): void {
     this.championsService.path = "favourite"

@@ -1,0 +1,40 @@
+
+<div class="content">
+    <p-toast></p-toast>
+    <div id="login" class="formBoxLogin">
+        <h2>Login</h2>
+        <span class="p-input-icon-left">
+            <i class="pi pi-at"></i>
+            <input [(ngModel)]="this.emailLogin" type="email" pInputText placeholder="Email">         
+        </span>
+        <span class="p-input-icon-left">
+            <i class="pi pi-lock"></i>
+            <input [(ngModel)]="this.passwordLogin" type="password" pInputText placeholder="Password">         
+        </span>
+        <p-button (click)="login()" label="Login" ></p-button>
+        <a (click)="rotateCube(0)">Dont have an account? Sign up for free!</a>
+    </div>
+
+    <div id="register" class="formBoxRegister">
+        <h2 >Register</h2>
+        <span class="p-input-icon-left">
+            <i class="pi pi-at"></i>
+            <input [(ngModel)]="this.user.email" type="email" pInputText placeholder="Email">         
+        </span>
+        <span class="p-input-icon-left">
+            <i class="pi pi-user"></i>
+            <input [(ngModel)]="this.user.username" type="text" pInputText placeholder="Username">         
+        </span>
+        <span class="p-input-icon-left">
+            <i class="pi pi-lock"></i>
+            <input [(ngModel)]="this.password1" type="password" pInputText placeholder="Password">         
+        </span>
+        <span class="p-input-icon-left">
+            <i class="pi pi-lock"></i>
+            <input [(ngModel)]="this.password2" type="password" pInputText placeholder="Confirm password">         
+        </span>
+        <p-button (click)="register()" label="Register" ></p-button>
+        <a (click)="rotateCube(1)">Alredy have an account? Login!</a>
+    </div>
+    
+</div>
